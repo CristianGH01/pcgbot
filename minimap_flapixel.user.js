@@ -1,23 +1,16 @@
 // ==UserScript==
-// @name         FlaPixel Minimap
+// @name         PCG Minimap
 // @version      1.2.1
 // @description  Pixelcanvas Minimap
-// @author       Alexander
+// @author       CRISTIAN
 // @match        https://pixelcanvas.io/*
 // @match        http://pixelcanvas.io/*
 // @grant        none
 // ==/UserScript==
 /* 
- _______  __           ___      .______    __  ___   ___  _______  __      
-|   ____||  |         /   \     |   _  \  |  | \  \ /  / |   ____||  |     
-|  |__   |  |        /  ^  \    |  |_)  | |  |  \  V  /  |  |__   |  |     
-|   __|  |  |       /  /_\  \   |   ___/  |  |   >   <   |   __|  |  |     
-|  |     |  `----. /  _____  \  |  |      |  |  /  .  \  |  |____ |  `----.
-|__|     |_______|/__/     \__\ | _|      |__| /__/ \__\ |_______||_______|
-
 */
 
-window.baseTepmlateUrl = 'https://raw.githubusercontent.com/ialexanderbrito/flapixel/master';
+window.baseTepmlateUrl = 'https://raw.githubusercontent.com/CristianGH01/pcgbot/master';
 
 window.addEventListener('load', function () {
     //Regular Expression to get coordinates out of URL
